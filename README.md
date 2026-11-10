@@ -2,6 +2,12 @@
 
 讓 PTT 網頁版（`https://www.pttweb.cc`）自動顯示原本只會顯示成連結的圖片，並修復被圖床擋外連而顯示不出來的圖片。本專案為 userscript，主要原始碼為本 repo 的 `PttwebImageFix.user.js`。
 
+**安裝**
+1. 安裝使用者腳本管理器，例如 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)。
+2. 前往 Greasy Fork 安裝本腳本：https://greasyfork.org/zh-TW/scripts/604628
+
+從 Greasy Fork 安裝後，腳本管理器會自動更新到最新版本。除非要參與開發，否則不需要從本 repo 手動安裝。
+
 **功能**
 - 自動顯示 pttweb 原本不會展開的圖片連結，文章內文與推文都適用：
   - **Twitter / X 圖片：** `pbs.twimg.com/media/...`，包含帶 `?format=jpg&name=orig` 參數的網址。
